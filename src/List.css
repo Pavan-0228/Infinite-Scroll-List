@@ -1,12 +1,11 @@
-/* List.css */
 .list-container {
-    max-height: 400px; /* To create a scrollable container */
+    max-height: 400px; 
     overflow-y: auto;
     border: 1px solid #ddd;
     padding: 16px;
     border-radius: 8px;
-    background-color: var(--bg-color); /* Dynamic theme background */
-    color: var(--text-color); /* Dynamic theme text */
+    background-color: var(--bg-color); 
+    color: var(--text-color); 
 }
 
 .list-item {
@@ -14,7 +13,7 @@
     margin-bottom: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: var(--item-bg-color); /* Dynamic theme item background */
+    background-color: var(--item-bg-color);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -48,7 +47,6 @@
     opacity: 1;
 }
 
-/* Sample theme variables */
 :root {
     --bg-color: #f9f9f9;
     --text-color: #333;
@@ -65,7 +63,6 @@
     --primary-color: #ff9800;
 }
 
-/* Additional loading animation */
 .loading::after {
     content: '';
     display: inline-block;

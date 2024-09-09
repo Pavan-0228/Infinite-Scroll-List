@@ -1,0 +1,57 @@
+:root {
+    --background-color-light: #ffffff;
+    --background-color-dark: #1f2937;
+    --item-background-light: #f0f8ff;
+    --item-background-dark: #374151;
+    --item-hover-light: #e1f0ff;
+    --item-hover-dark: #4b5563;
+    --button-background-light: #4f46e5;
+    --button-background-dark: #10b981;
+    --button-hover-light: #4338ca;
+    --button-hover-dark: #059669;
+    --text-color-light: #374151;
+    --text-color-dark: #d1d5db;
+}
+
+body.light-theme {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+body.dark-theme {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+
+.list-item {
+    background-color: var(--item-background-light);
+    border-color: #dbe9f5;
+}
+
+body.dark-theme .list-item {
+    background-color: var(--item-background-dark);
+}
+
+body.light-theme .list-item:hover {
+    background-color: var(--item-hover-light);
+}
+
+body.dark-theme .list-item:hover {
+    background-color: var(--item-hover-dark);
+}
+
+.back-to-top {
+    background-color: var(--button-background-light);
+}
+
+body.dark-theme .back-to-top {
+    background-color: var(--button-background-dark);
+}
+
+.back-to-top:hover {
+    background-color: var(--button-hover-light);
+}
+
+body.dark-theme .back-to-top:hover {
+    background-color: var(--button-hover-dark);
+}
